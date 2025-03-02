@@ -1,0 +1,79 @@
+.book-card {
+  height: 65vh;
+  width: 20vw;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 2rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s;
+  &:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+}
+.book-details {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2vh;
+}
+.book-card img {
+  width: 10vw;
+  margin: 4.8rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-top: 5px solid white;
+  border-left: 5px solid white;
+}
+.name {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 0.5rem;
+}
+.author {
+  text-align: center;
+  font-weight: 400;
+}
+.date {
+  margin-top: 3vh;
+  margin-left: 4.5vw;
+}
+a {
+  text-decoration: none;
+  color: goldenrod;
+  text-align: center;
+  margin-top: 3vh;
+  &:hover {
+    color: red;
+  }
+}
+.search-books {
+  margin-top: 15vh;
+  display: flex;
+  justify-content: center;
+}
+.search-books input {
+  padding: 0.5rem;
+  width: 20vw;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.search-books button {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border: none;
+  border-left: 3px solid grey;
+  padding: 0.5rem;
+  &:hover {
+    background-color: rgb(42, 90, 234);
+    color: white;
+    cursor: pointer;
+  }
+}

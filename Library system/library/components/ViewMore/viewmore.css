@@ -1,0 +1,70 @@
+.details-container {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+.details-container h1 {
+  color: white;
+  margin-top: 10vh;
+}
+.detail-card {
+  margin-top: 10vh;
+  width: 90vw;
+  height: 75vh;
+  background-color: rgb(255, 255, 255, 0.2);
+}
+.detail-card img {
+  width: 20vw;
+  top: 21.3vh;
+  left: 70vw;
+  position: absolute;
+  border: 2px solid white;
+}
+.detail-card h2:nth-of-type(1) {
+  font-size: 3rem;
+}
+.detail-card h2 {
+  padding: 0.7rem;
+  font-size: 2rem;
+}
+.detail-card p:nth-of-type(1) {
+  padding: 0.7rem;
+  margin-top: 2vh;
+  font-size: 1.2rem;
+}
+.detail-card h1 {
+  padding: 0.7rem;
+  text-decoration: underline;
+}
+.detail-card p:nth-of-type(2) {
+  font-size: 1.2rem;
+  width: 50vw;
+  padding-left: 0.7rem;
+  font-weight: 700;
+}
+.detail-card span {
+  color: gold;
+  position: relative;
+  top: 0.7vh;
+}
+.detail-card p:nth-of-type(3) {
+  font-size: 1.2rem;
+  width: 50vw;
+  padding: 0.7rem;
+  line-height: 2rem;
+}
+.details-container button {
+  padding: 0.5rem;
+  margin-top: 1vh;
+  color: white;
+  background-color: rgb(10, 69, 197);
+  border: none;
+  border-radius: 0.5rem;
+  &:hover {
+    cursor: pointer;
+    background-color: tomato;
+  }
+}

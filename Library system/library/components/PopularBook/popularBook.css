@@ -1,0 +1,48 @@
+.book-card {
+  height: 75vh;
+  width: 20vw;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 2rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s;
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+.book-details {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+}
+.book-card img {
+  width: 13vw;
+  margin: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-top: 5px solid white;
+  border-left: 5px solid white;
+}
+.name {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 0.5rem;
+}
+.author {
+  text-align: center;
+  font-weight: 400;
+}
+.date {
+  margin-top: 3vh;
+  margin-left: 4.5vw;
+}
+a {
+  text-decoration: none;
+  color: goldenrod;
+  text-align: center;
+  margin-top: 3vh;
+}

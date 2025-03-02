@@ -1,0 +1,71 @@
+.newbook-container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.newbook-container h1 {
+  position: absolute;
+  z-index: 2;
+  top: 12vh;
+  text-decoration: underline;
+}
+.newbook-form {
+  background-color: rgb(255, 255, 255, 0.2);
+  height: 65vh;
+  width: 40vw;
+  overflow: hidden;
+  margin-top: 5vh;
+}
+h3 {
+  color: white;
+}
+.book-description,
+.book-image,
+.book-category,
+.published-date,
+.author-name,
+.book-name {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem;
+}
+.newbook-form input {
+  width: 20vw;
+  padding: 0.3rem;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.newbook-form textarea {
+  width: 20vw;
+  padding: 0.3rem;
+  height: 13vh;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+}
+.submit-button button {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  border: none;
+  font-weight: 500;
+  color: white;
+  width: 20%;
+  background-color: rgb(37, 77, 235);
+  &:hover {
+    cursor: pointer;
+  }
+}
+.submit-button a {
+  width: 25vw;
+}
